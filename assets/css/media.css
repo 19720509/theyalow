@@ -1,0 +1,123 @@
+@media screen and (max-width: 640px) {
+/* CSS-стили */
+body {
+    margin: 0;
+    padding: 0;
+    width: 640px;
+}
+
+
+.cool {
+display: none;
+}
+.wrapper { display:block; position:relative;
+    margin: 0 0; background-color:#585858;   
+  }
+.inner-wrapper { display:block; position:relative;
+   margin: 0 0; background-color:#585858;   
+}
+.header {display: block;  position:relative;
+/*justify-content: space-around;*/
+ /*background-image: url('../img/background.png');*/
+ background-color:#585858 ;
+ }
+
+.container { margin: 0 auto; width: 640px; /* height:62px;*/ 
+/*outline: 1px solid red;*/
+display:block;
+position:relative;
+justify-content: space-between;
+align-items: center;
+ flex-direction: row;
+ flex-wrap: wrap;
+ background-color:#585858}
+
+ .visually-hidden {display:none;}
+
+.logo { display:inline-block; position:relative;;
+    /*display: flex;
+    align-items: center;
+    /*margin-top: 11px;  margin-bottom: auto;*/
+    /*width: 186px;
+height: 62px;*/
+/*background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%,
+ rgba(255, 255, 255, 0.1) 100%);*/ 
+  }
+.logo-img { position: absolute; display:inline; margin-left:0;
+    width: 40px;
+    height: 39px;
+    background: url('../img/logosecondlayer.svg'), url('../img/logo.svg');
+    background-position: 50% 50%;
+  }
+.logo-label{/*width: 108px; 
+    height: 14px;*/ display:inline; position:relative;
+     margin-top: 0; margin-left:0;
+    text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.42);
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-size: 19px;
+    font-style: italic;
+    text-transform: uppercase;
+    /* Text style for "TheYalow" */
+    letter-spacing: 0.41px;}
+
+.navbar {width: 455px; height: 62px; position: relative;
+    
+    background-color: #f5c506; 
+    display:inline-block; margin-top: 0px; 
+     float:right;   
+  }
+  .navbar ul {display:flex; justify-content:space-around; align-items:center;
+        /* Style for "Rectangle" */
+/*width: 453px;
+height: 41px;
+background-color: #f5c506;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%);
+opacity: 1;*/
+ /*width: 455px;*/
+/*height: 62px;*/ 
+background-color: #f5c506;
+   }
+   .navbar ul li { display:flex;
+        /* Style for "About Us" */
+/*width: 81px;*/
+/*height: 14px;
+color: #9b7d08;
+font-family: "Segoe WP";
+font-size: 17px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "A, bout Us" */
+/*letter-spacing: 0.17px;*/
+/*width: 90px;
+height: 15px;*/
+color: #9b7d08;
+font-family: "Segoe WP";
+font-size: 19px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "A, bout Us" */
+letter-spacing: 0.19px;
+  }
+  .navbar ul li a {  
+    display: inline; color: #9b7d08; text-decoration:none; text-align:center;
+  align-items:center; justify-content: center;} 
+
+  .person img { width: 24px;
+    height: 22px;     /*background-color: #b99403;*/
+  }
+  .tool img {/* Style for "Shape 6" */
+    /*width: 19px;
+    height: 19px;
+    background-color: #b99403;*/width: 22px;
+height: 22px;}
+    .envelope img { /* Style for "Shape 7" */
+      /*width: 24px;
+      height: 18px;*/
+     /* background-color: #b99403;*/ width: 28px;
+height: 21px;}
+
+   .video {width:640px; height:327px; margin-left:0; margin-right: 0;  
+     margin-top: 62px;}
+
+}
